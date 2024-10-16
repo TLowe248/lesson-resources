@@ -1,0 +1,8 @@
+@if (!started) {
+	<button (click)="start.emit()">Start the Workday!</button>
+} @else {
+	<button (click)="stop.emit()">End the Workday!</button>
+}
+@for (order of orders; track order) {
+	<p>{{order}}</p>
+}

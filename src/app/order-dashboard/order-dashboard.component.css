@@ -1,0 +1,10 @@
+p {
+	width: 12.5%;
+	display: inline-block;
+}
+:host {
+	display: block;
+}
+button {
+	width: 100%;
+}
